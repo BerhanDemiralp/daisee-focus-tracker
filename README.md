@@ -18,7 +18,7 @@ Temel akis:
 
 ```text
 streamlit_mvp/
-├── app2.py
+├── app.py
 ├── mvp_focus.py
 ├── models/
 │   └── best_model.pt
@@ -28,7 +28,7 @@ streamlit_mvp/
 
 Dosyalar:
 
-- `app2.py`: Streamlit arayuzu.
+- `app.py`: Streamlit arayuzu.
 - `mvp_focus.py`: Model yukleme, tahmin, yuz algilama ve rolling window kodlari.
 - `models/best_model.pt`: Egitilmis PyTorch model checkpoint dosyasi.
 - `reports/`: Canli kamera sonuclarinin kaydedildigi klasor.
@@ -176,7 +176,7 @@ focus-score-daisee-streamlit/models/best_model.pt
 
 ```powershell
 cd focus-score-daisee-streamlit
-streamlit run app2.py
+streamlit run app.py
 ```
 
 ## Kullanim
